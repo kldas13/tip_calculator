@@ -17,14 +17,15 @@
                     <label for="bill">Bill</label>
                     <input type="number" name="bill" id="bill" placeholder="0" onchange=bill()>
                     <label for="tip-buttons">Select Tip  %</label>
-                    <div class="tip-buttons" id="tip-buttons">
-                        <input type="button" value="5%" id="five" onclick=five()>
-                        <input type="button" value="10%" id="ten" onclick=ten()>
-                        <input type="button" value="15%" id="fifteen" onclick=fifteen()>
-                        <input type="button" value="25%" id="twenty_five" onclick=twenty_five()>
-                        <input type="button" value="50%" id="fifty" onclick=fifty()>
-                        <input type="number" id="custom" placeholder="Custom " onchange=custom()>
+                    <div id="tip-buttons">
+                        <input class="per" type="button" value="5%" id="five" onclick=five()>
+                        <input class="per" type="button" value="10%" id="ten" onclick=ten()>
+                        <input class="per" type="button" value="15%" id="fifteen" onclick=fifteen()>
+                        <input class="per" type="button" value="25%" id="twenty_five" onclick=twenty_five()>
+                        <input class="per" type="button" value="50%" id="fifty" onclick=fifty()>
+                        <input  type="number" id="custom" placeholder="Custom " onchange=custom()>
                     </div>
+
                     <label for="people">Total Number of People</label>
                     <div id="people_count">
                         <input type="number" name="people" id="people" placeholder="0" onchange=left()>
@@ -38,11 +39,11 @@
 
             <div class="right-box">
                 <div class="tip-amount">
-                    <span>Tip Amount/person               $</span> <span id="demo">0.00</span>
+                    <span>Tip Amount/person&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp $</span> <span id="demo">0.00</span>
                     <!-- <p id="demo"> -->
                 </div>
                 <div class="total-bill">
-                    <span>Total/person                    $</span> <span id="demo1">0.00</span>
+                    <span>Total/person&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp$</span> <span id="demo1">0.00</span>
                 </div>
                 <div class="resetter">
                     <button type="reset" id="reset" onclick=window.location.reload(true)>Reset</button>
