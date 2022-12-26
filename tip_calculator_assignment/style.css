@@ -1,0 +1,61 @@
+body {
+
+}
+
+.container {
+    height: 400px;
+    width: 1000px;
+    margin-left: 10%;
+    margin-top: 5%;
+
+
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(116, 214, 231);
+}
+
+.box-container {
+    display: flex;
+    flex-direction: row;
+   
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    width: 600px;
+    height: 200px;
+   
+}
+
+.left-box {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    
+
+}
+
+.right-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 350px;
+    height: 200px;
+    
+    justify-content: center;
+   
+    background-color: rgb(10, 109, 101);
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+input:active {
+    background-color: rgb(10, 109, 101) ;
+}
